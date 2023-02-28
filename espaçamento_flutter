@@ -1,0 +1,37 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  
+  runApp(MaterialApp(
+  
+  //debugShowCheckModeBnner: false;
+    title: 'Aula 02 FLUTTER 2DS',
+    home: Container(
+      color: Colors.blue,
+      //padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+      //margin: EdgeInsets.all(50),
+      child: Column( children: <Widget> [
+       
+        Padding(
+        padding: EdgeInsets.fromLTRB(0,0,0,0),
+          child: Text("Texto1"),
+        ),
+        
+        Padding(
+        padding: EdgeInsets.fromLTRB(50, 40, 30, 20),
+          child: Text("Texto2"),
+          ),
+          
+          Padding(
+            padding: EdgeInsets.fromLTRB(0,0,0,0),
+              child: Text("Texto3"),
+          ),
+          
+       ]), 
+     ),
+  
+  
+ ));
+  
+  
+}
